@@ -5,4 +5,7 @@ const reverseString = function(string) {
 // Do not edit below this line
 module.exports = reverseString;
 
-// string -> argument
+// string -> an existing argument
+
+// Ex - 
+// reverseString('hello there') // returns 'ereht olleh'
