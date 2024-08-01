@@ -17,4 +17,7 @@ module.exports = repeatString;
 
 /*
 arguments -> (string, num)
+
+Ex -
+repeatString('hey', 3)).toEqual('heyheyhey');
 */
