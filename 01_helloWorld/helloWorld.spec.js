@@ -1,3 +1,5 @@
+// the `spec` file contains the tests that verify your code is functional.
+
 const helloWorld = require('./helloWorld');
 
 describe('Hello World', function() {
