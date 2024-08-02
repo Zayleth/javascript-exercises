@@ -8,15 +8,15 @@ module.exports = removeFromArray;
 
 /*
 array = array's name
-array.filter -> method que crea un nuevo arreglo filtrando los elementos del arreglo original (array) basado en una condición.
-element = parametro que acepta el (metodo filter) y representa cada elemento de mi array original (array).
+array.filter -> method that creates a new array by filtering the elements of the original array (array) based on a condition.
+element = (parameter that accepts the filter method) it represents each element of my original array (array).
 
-la condicion -
+CONDITION -
 !theArgs.includes(element)
 
-explica que -
-Si el elemento no está en theArgs, la función devuelve true e imprime el valor tal cual.
-Si el elemento está en theArgs, la función devuelve false y elimina el valor del arreglo.
+explains that -
+If the element is not in theArgs, the function returns true and prints the value as is.
+If the element is in theArgs, the function returns false and removes the value from the array.
 
 Ex - 
 expect(removeFromArray([1, 2, 3, 4], 3)).toEqual([1, 2, 4]);
