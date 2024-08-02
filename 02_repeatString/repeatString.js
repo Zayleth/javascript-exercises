@@ -16,7 +16,8 @@ let final_string = "";
 module.exports = repeatString;
 
 /*
-arguments -> (string, num)
+Write a function that simply repeats the string a given number of times:
+given arguments -> (string, num)
 
 Ex -
 repeatString('hey', 3)).toEqual('heyheyhey');
