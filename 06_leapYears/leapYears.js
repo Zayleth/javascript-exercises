@@ -23,8 +23,8 @@ module.exports = leapYears;
 
 /* General conditions to know if a year is a leap year
 
-- Divisible by 4, but not divisible by 100 = LEAP -> TRUE
-- Divisible by 100 and divisible by 400 = LEAP -> TRUE 
-- ELSE = NO LEAP -> FALSE
+- Divisible by 4, but not divisible by 100 = LEAP YEAR -> TRUE
+- Divisible by 100 and divisible by 400 = LEAP YEAR -> TRUE 
+- ELSE = NO LEAP YEAR -> FALSE
 
 */
